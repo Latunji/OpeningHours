@@ -25,4 +25,93 @@ Please note: output are sent back to your API request in JSON.
 
 If there are any issues with running the code or setting it up, please do let me know, I will be available to assist. 
 
+# To question number 2.
+
+The json data structure is okay but I believe it can be better.
+
+{
+  "dayOfWeek":{
+             "monday": [
+                    {
+                     "type": "close",
+                     "value": 74800
+                     },       
+                    {
+                     "type": "open",
+                     "value": 64800
+                     },
+                     {
+                     "type": "close",
+                     "value": 74800
+                     }
+                     ],
+                     "tuesday": [
+                     {
+                     "type": "open",
+                     "value": 36000
+                     },
+                     {
+                     "type": "close",
+                     "value": 64800
+                     },
+                      {
+                     "type": "open",
+                     "value": 64800
+                     },
+                     {
+                     "type": "close",
+                     "value": 74800
+                     }
+                     ],
+                     "wednesday": [
+
+                     ],
+                     "thursday": [
+                     {
+                     "type": "open",
+                     "value": 36000
+                     },
+                     {
+                     "type": "close",
+                     "value": 64800
+                     }
+                     ],
+                     "friday": [
+                     {
+                     "type": "open",
+                     "value": 36000
+                     }
+                     ],
+                     "saturday": [
+                     {
+                     "type": "close",
+                     "value": 3600
+                     },
+                    {
+                     "type": "open",
+                     "value": 36000
+                     }
+                     ],
+                     "sunday": [
+                     {
+                     "type": "close",
+                     "value": 3600
+                     },
+                     {
+                     "type": "open",
+                     "value": 43200
+                     },
+                     {
+                     "type": "close",
+                     "value": 75600
+                     },
+                     {
+                     "type": "open",
+                     "value": 43200
+                     }
+                     ]
+          }
+          }
+
+
 Warm regards.
